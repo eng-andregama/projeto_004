@@ -2,6 +2,6 @@
 
 include('_include/_topo.php');
 
-echo "Paginas/home.php";
+getPagina();
 
 include('_include/_rodape.php');
