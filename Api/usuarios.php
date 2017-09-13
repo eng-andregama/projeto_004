@@ -24,6 +24,3 @@ function exibeUsuario(){
 
     echo $html;
 }
-
-
-//?>
