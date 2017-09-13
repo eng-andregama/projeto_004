@@ -1,6 +1,10 @@
 <?php
 
-echo "trabalhando com PHP";
-echo "trabalhando com PHP2 ";
-echo "trabalhando com PHP3 ";
+$nome = "André";
+$idade = 43;
+$peso = 85;
+
+echo "Trabalhando com PHP";
+
+
 ?>
