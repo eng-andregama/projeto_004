@@ -1,41 +1,6 @@
 <?php
 
-//Criando uma função php
-
-function getInfo($atributo){
-    //$dados = array("título","descricao");
-    $dados = ["titulo"=>"SiteModelo", "descricao"=>"Programando em PHP."];
-    return $dados[$atributo];
-
-}
-
-function getUsuarios(){
-    $dados =[
-        ["nome"=>"Guilherme","email"=>"gui@gmail.com"],
-        ["nome"=>"Maria","email"=>"maria@gmail.com"],
-        ["nome"=>"Pedro","email"=>"pedro@gmail.com"]
-    ];
-    return $dados;
-}
-
-function exibeUsuario(){
-    
-    $usuarios = getUsuarios();
-    $html = "";
-
-    foreach($usuarios as $chave => $usuario) {
-
-        $nome = $usuario["nome"];
-        $email = $usuario["email"]; 
-        $html .= "<li>Nome: $nome - e-mail: $email</li>";
-
-    }
-
-    return $html;
-}
-
-//Trabalhando com o laço FOR
-
+include('Api/api.php');
 
 ?>
 
