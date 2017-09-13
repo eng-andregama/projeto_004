@@ -1,10 +1,13 @@
 <?php
 
 $nome = "André";
+$sobrenome = "Gama";
 $idade = 43;
-$peso = 85;
 
-echo "Trabalhando com PHP";
+$nomeCompleto = $nome." ".$sobrenome;
+
+
+echo "$nomeCompleto";
 
 
 ?>
