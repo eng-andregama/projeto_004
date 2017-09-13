@@ -33,6 +33,10 @@ function exibeUsuario(){
 
     return $html;
 }
+
+//Trabalhando com o laço FOR
+
+
 ?>
 
 <!DOCTYPE html>
@@ -48,7 +52,7 @@ function exibeUsuario(){
     <h1><?php echo getInfo("titulo") ?></h1>
     <p><?php echo getInfo("descricao") ?></p>
     <ul>
-        <li>Nome: Guilherme - email: gui@gmail.com</li>
+        <li><?php echo exibeUsuario() ?></li>
     </ul>
 
 </body>
